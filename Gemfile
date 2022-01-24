@@ -57,3 +57,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # added pg
 gem 'pg'
+
+# added bootstrap gem
+gem 'simple_form'
+
