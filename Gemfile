@@ -61,3 +61,5 @@ gem 'pg'
 # added bootstrap gem
 gem 'simple_form'
 
+# Gemfile for cloudinary
+gem 'dotenv-rails', groups: [:development, :test]
