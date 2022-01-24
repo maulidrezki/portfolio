@@ -61,5 +61,8 @@ gem 'pg'
 # added bootstrap gem
 gem 'simple_form'
 
-# Gemfile for cloudinary
+# Gemfile for dotenv so .env wont show up
 gem 'dotenv-rails', groups: [:development, :test]
+
+# Gemfile for cloudinary
+gem 'cloudinary', '~> 1.16.0'
