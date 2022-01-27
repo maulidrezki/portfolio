@@ -68,3 +68,33 @@ project_6 = Project.new(
 )
 
 project_6.save!
+
+project_7 = Project.new(
+  name: "grid and map",
+  title: "a simple page to showcase how grid and map works",
+  description: "this is a quick test during the le wagon coding bootcamp to make a basic page with grids and map",
+  url: " ",
+  stacks: "html, css, git, postgresql"
+)
+
+project_7.save!
+
+project_8 = Project.new(
+  name: "food delivery page",
+  title: "a simple page for food delivery service ",
+  description: "his is a quick test during the le wagon coding bootcamp to make a landing page for food delivery service",
+  url: " ",
+  stacks: "html, css, git"
+)
+
+project_8.save!
+
+project_9 = Project.new(
+  name: "simple profile",
+  title: "a simple profile about myself",
+  description: "his is a quick test during the le wagon coding bootcamp to make a profile page",
+  url: "https://maulidrezki.github.io/profile/",
+  stacks: "html, css, git"
+)
+
+project_9.save!
