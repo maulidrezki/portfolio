@@ -82,7 +82,7 @@ project_7.save!
 project_8 = Project.new(
   name: "food delivery page",
   title: "a simple page for food delivery service ",
-  description: "his is a quick test during the le wagon coding bootcamp to make a landing page for food delivery service",
+  description: "this is a quick test during the le wagon coding bootcamp to make a landing page for food delivery service",
   url: " ",
   stacks: "html, css, git"
 )
@@ -92,7 +92,7 @@ project_8.save!
 project_9 = Project.new(
   name: "simple profile",
   title: "a simple profile about myself",
-  description: "his is a quick test during the le wagon coding bootcamp to make a profile page",
+  description: "this is a quick test during the le wagon coding bootcamp to make a profile page",
   url: "https://maulidrezki.github.io/profile/",
   stacks: "html, css, git"
 )
