@@ -62,7 +62,7 @@ project_5.save!
 project_6 = Project.new(
   name: "wikipedia clone",
   title: "a wikipedia clone that enables you to post and edit article anonymously",
-  description: "this is a project during the le wagon coding bootcamp to make a basic airbnb clone",
+  description: "this is a project during the le wagon coding bootcamp to make a basic wikipedia clone",
   url: "https://wagon-wikinimous.herokuapp.com/",
   stacks: "ruby on rails, git, heroku, postgresql"
 )

@@ -3,6 +3,16 @@
   margin: auto;
 }
 
+.container-project {
+  background-color: white;
+  padding: 10%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  img {
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    width: 100%;
+  }
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
