@@ -18,6 +18,7 @@ project_1 = Project.new(
 )
 
 pic_1 = URI.open("https://res.cloudinary.com/dzfthizg3/image/upload/v1643701989/development/Screen_Shot_2022-02-01_at_3.55.11_PM_cebrrm.png")
+project_1.photos.attach(io: pic_1, filename: "1.jpg", content_type: "image/jpg")
 project_1.save!
 
 project_2 = Project.new(
