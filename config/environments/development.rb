@@ -1,5 +1,6 @@
 require "active_support/core_ext/integer/time"
 
+
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
@@ -13,10 +14,6 @@ Rails.application.configure do
 
   # Show full error reports.
   config.consider_all_requests_local = true
-
-  # Ngrok
-  config.hosts << /[a-z0-9]+\.ngrok\.io/
-
 
   # Enable/disable caching. By default caching is disabled.
   # Run rails dev:cache to toggle caching.
