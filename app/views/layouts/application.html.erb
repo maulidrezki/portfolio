@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Maulid's Portfolio</title>
+    <%= favicon_link_tag asset_path('logo.png') %>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -11,7 +12,7 @@
   </head>
 
   <body>
-    <%# <%= render 'shared/navbar' %> 
+    <%# <%= render 'shared/navbar' %>
     <%= yield %>
      <%= render 'shared/footer' %>
   </body>
