@@ -4,10 +4,10 @@
     <p>full stack engineer</p>
     <br>
     <br>
-    <p>github</p>
-    <p>linkedin</p>
-    <p>email</p>
-    <p>resume</p>
+    <p><%= link_to "github", "https://github.com/maulidrezki", :target => "_blank", class: "nav-nav"%></p>
+    <p><%= link_to "linkedin", "https://www.linkedin.com/in/maulidrezki/", :target => "_blank", class: "nav-nav"%></p>
+    <p><%= mail_to "maulidrezki13@gmail.com", 'email', subject: "[Connect] Hi Maulid, let's connect", :target => "_blank", class: "nav-nav" %></p>
+    <p><%= link_to "resume", "https://www.dropbox.com/s/k1esilesh2wxbx8/Resume%20Maulid%20Rezki%202022%20-%20Technical.pdf?dl=0", :target => "_blank", class: "nav-nav"%></p>
     <p> <%= link_to "projects", root_path(anchor: "cardhome"), class: "nav-nav" %> </p>
   </div>
 </div>
