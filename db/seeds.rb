@@ -29,6 +29,8 @@ project_2 = Project.new(
   stacks: "ruby on rails, stimulusjs, bootstrap, git, heroku, postgresql"
 )
 
+pic_1 = URI.open("https://res.cloudinary.com/dzfthizg3/image/upload/v1643701989/development/Screen_Shot_2022-02-01_at_3.55.11_PM_cebrrm.png")
+project_2.photos.attach(io: pic_1, filename: "1.jpg", content_type: "image/jpg")
 project_2.save!
 
 project_3 = Project.new(
@@ -39,6 +41,8 @@ project_3 = Project.new(
   stacks: "adobe xd, bootstrap, django"
 )
 
+pic_1 = URI.open("https://res.cloudinary.com/dzfthizg3/image/upload/v1643701989/development/Screen_Shot_2022-02-01_at_3.55.11_PM_cebrrm.png")
+project_3.photos.attach(io: pic_1, filename: "1.jpg", content_type: "image/jpg")
 project_3.save!
 
 project_4 = Project.new(
@@ -49,6 +53,8 @@ project_4 = Project.new(
   stacks: "ruby on rails, git, heroku, postgresql",
 )
 
+pic_1 = URI.open("https://res.cloudinary.com/dzfthizg3/image/upload/v1643701989/development/Screen_Shot_2022-02-01_at_3.55.11_PM_cebrrm.png")
+project_4.photos.attach(io: pic_1, filename: "1.jpg", content_type: "image/jpg")
 project_4.save!
 
 project_5 = Project.new(
@@ -59,6 +65,8 @@ project_5 = Project.new(
   stacks: "ruby on rails, git, heroku, postgresql"
 )
 
+pic_1 = URI.open("https://res.cloudinary.com/dzfthizg3/image/upload/v1643701989/development/Screen_Shot_2022-02-01_at_3.55.11_PM_cebrrm.png")
+project_5.photos.attach(io: pic_1, filename: "1.jpg", content_type: "image/jpg")
 project_5.save!
 
 project_6 = Project.new(
@@ -69,6 +77,8 @@ project_6 = Project.new(
   stacks: "ruby on rails, git, heroku, postgresql"
 )
 
+pic_1 = URI.open("https://res.cloudinary.com/dzfthizg3/image/upload/v1643701989/development/Screen_Shot_2022-02-01_at_3.55.11_PM_cebrrm.png")
+project_6.photos.attach(io: pic_1, filename: "1.jpg", content_type: "image/jpg")
 project_6.save!
 
 project_7 = Project.new(
@@ -79,6 +89,8 @@ project_7 = Project.new(
   stacks: "html, css, git, postgresql"
 )
 
+pic_1 = URI.open("https://res.cloudinary.com/dzfthizg3/image/upload/v1643701989/development/Screen_Shot_2022-02-01_at_3.55.11_PM_cebrrm.png")
+project_7.photos.attach(io: pic_1, filename: "1.jpg", content_type: "image/jpg")
 project_7.save!
 
 project_8 = Project.new(
@@ -89,6 +101,8 @@ project_8 = Project.new(
   stacks: "html, css, git"
 )
 
+pic_1 = URI.open("https://res.cloudinary.com/dzfthizg3/image/upload/v1643701989/development/Screen_Shot_2022-02-01_at_3.55.11_PM_cebrrm.png")
+project_8.photos.attach(io: pic_1, filename: "1.jpg", content_type: "image/jpg")
 project_8.save!
 
 project_9 = Project.new(
@@ -99,4 +113,6 @@ project_9 = Project.new(
   stacks: "html, css, git"
 )
 
+pic_1 = URI.open("https://res.cloudinary.com/dzfthizg3/image/upload/v1643701989/development/Screen_Shot_2022-02-01_at_3.55.11_PM_cebrrm.png")
+project_9.photos.attach(io: pic_1, filename: "1.jpg", content_type: "image/jpg")
 project_9.save!
