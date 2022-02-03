@@ -9,6 +9,10 @@
 require 'open-uri'
 require 'json'
 
+puts 'Cleaning up database...'
+Project.destroy_all
+puts 'Database cleaned'
+
 project_1 = Project.new(
   name: "mobile web app",
   title: "kinder project is a mobile web application to find volunteering opportunites in bali",
