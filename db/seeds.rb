@@ -21,7 +21,7 @@ project_1 = Project.new(
   stacks: "ruby on rails, stimulusjs, bootstrap, git, heroku, postgresql"
 )
 
-pic_1 = URI.open("https://res.cloudinary.com/dzfthizg3/image/upload/v1643701989/development/Screen_Shot_2022-02-01_at_3.55.11_PM_cebrrm.png")
+pic_1 = URI.open("https://res.cloudinary.com/dzfthizg3/image/upload/v1644216603/development/Screen_Shot_2022-02-07_at_2.53.47_PM_kgf7yz.png")
 project_1.photos.attach(io: pic_1, filename: "1.jpg", content_type: "image/jpg")
 project_1.save!
 
@@ -117,6 +117,6 @@ project_9 = Project.new(
   stacks: "html, css, git"
 )
 
-pic_1 = URI.open("https://res.cloudinary.com/dzfthizg3/image/upload/v1643701989/development/Screen_Shot_2022-02-01_at_3.55.11_PM_cebrrm.png")
+pic_1 = URI.open("https://res.cloudinary.com/dzfthizg3/image/upload/v1644216514/development/Screen_Shot_2022-02-07_at_2.52.10_PM_xa0v30.png")
 project_9.photos.attach(io: pic_1, filename: "1.jpg", content_type: "image/jpg")
 project_9.save!
