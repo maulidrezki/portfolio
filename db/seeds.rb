@@ -45,7 +45,7 @@ project_3 = Project.new(
   stacks: "adobe xd, bootstrap, django"
 )
 
-pic_1 = URI.open("https://res.cloudinary.com/dzfthizg3/image/upload/v1643701989/development/Screen_Shot_2022-02-01_at_3.55.11_PM_cebrrm.png")
+pic_1 = URI.open("https://res.cloudinary.com/dzfthizg3/image/upload/v1644221712/development/Screen_Shot_2022-02-07_at_4.17.54_PM_ums1ya.png")
 project_3.photos.attach(io: pic_1, filename: "1.jpg", content_type: "image/jpg")
 project_3.save!
 
