@@ -33,7 +33,7 @@ project_2 = Project.new(
   stacks: "ruby on rails, stimulusjs, bootstrap, git, heroku, postgresql"
 )
 
-pic_1 = URI.open("https://res.cloudinary.com/dzfthizg3/image/upload/v1643701989/development/Screen_Shot_2022-02-01_at_3.55.11_PM_cebrrm.png")
+pic_1 = URI.open("https://res.cloudinary.com/dzfthizg3/image/upload/v1644218876/development/Screen_Shot_2022-02-07_at_3.31.33_PM_hsiyki.png")
 project_2.photos.attach(io: pic_1, filename: "1.jpg", content_type: "image/jpg")
 project_2.save!
 
