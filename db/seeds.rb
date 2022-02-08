@@ -69,7 +69,7 @@ project_5 = Project.new(
   stacks: "ruby on rails, git, heroku, postgresql"
 )
 
-pic_1 = URI.open("https://res.cloudinary.com/dzfthizg3/image/upload/v1643701989/development/Screen_Shot_2022-02-01_at_3.55.11_PM_cebrrm.png")
+pic_1 = URI.open("https://res.cloudinary.com/dzfthizg3/image/upload/v1644332420/development/Screen_Shot_2022-02-08_at_11.02.00_PM_qxkdmr.png")
 project_5.photos.attach(io: pic_1, filename: "1.jpg", content_type: "image/jpg")
 project_5.save!
 
@@ -93,7 +93,7 @@ project_7 = Project.new(
   stacks: "html, css, git, postgresql"
 )
 
-pic_1 = URI.open("https://res.cloudinary.com/dzfthizg3/image/upload/v1643701989/development/Screen_Shot_2022-02-01_at_3.55.11_PM_cebrrm.png")
+pic_1 = URI.open("https://res.cloudinary.com/dzfthizg3/image/upload/v1644332441/development/Screen_Shot_2022-02-08_at_11.02.56_PM_saehhz.png")
 project_7.photos.attach(io: pic_1, filename: "1.jpg", content_type: "image/jpg")
 project_7.save!
 
@@ -105,7 +105,7 @@ project_8 = Project.new(
   stacks: "html, css, git"
 )
 
-pic_1 = URI.open("https://res.cloudinary.com/dzfthizg3/image/upload/v1643701989/development/Screen_Shot_2022-02-01_at_3.55.11_PM_cebrrm.png")
+pic_1 = URI.open("https://res.cloudinary.com/dzfthizg3/image/upload/v1644332457/development/Screen_Shot_2022-02-08_at_11.03.54_PM_nvxdqf.png")
 project_8.photos.attach(io: pic_1, filename: "1.jpg", content_type: "image/jpg")
 project_8.save!
 
