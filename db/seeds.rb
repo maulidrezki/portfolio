@@ -57,7 +57,7 @@ project_4 = Project.new(
   stacks: "ruby on rails, git, heroku, postgresql",
 )
 
-pic_1 = URI.open("https://res.cloudinary.com/dzfthizg3/image/upload/v1643701989/development/Screen_Shot_2022-02-01_at_3.55.11_PM_cebrrm.png")
+pic_1 = URI.open("https://res.cloudinary.com/dzfthizg3/image/upload/v1644391103/development/Screen_Shot_2022-02-09_at_3.21.56_PM_yzcruk.png")
 project_4.photos.attach(io: pic_1, filename: "1.jpg", content_type: "image/jpg")
 project_4.save!
 
@@ -81,7 +81,7 @@ project_6 = Project.new(
   stacks: "ruby on rails, git, heroku, postgresql"
 )
 
-pic_1 = URI.open("https://res.cloudinary.com/dzfthizg3/image/upload/v1643701989/development/Screen_Shot_2022-02-01_at_3.55.11_PM_cebrrm.png")
+pic_1 = URI.open("https://res.cloudinary.com/dzfthizg3/image/upload/v1644389819/development/Screen_Shot_2022-02-09_at_3.00.40_PM_yk6i61.png")
 project_6.photos.attach(io: pic_1, filename: "1.jpg", content_type: "image/jpg")
 project_6.save!
 
