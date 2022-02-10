@@ -7,11 +7,11 @@
 <div class="containershow">
   <div class="container-projectshow">
     <h5><%= @project.name%></h5>
-    <p class="fs-6"><%=link_to @project.url, @project.url, :target => "_blank", class: "nav-url"%></p>
+    <p class="fs-6">url: <%=link_to @project.url, @project.url, :target => "_blank", class: "nav-url"%></p>
     <br>
-    <p><%= @project.description%></p>
+    <p>description: <%= @project.description%></p>
     <br>
-    <p><%= @project.stacks%></p>
+    <p>tech stacks: <%= @project.stacks%></p>
     <% if @project.photos.attached? %>
       <div class="card-category" style="background-image: url(<%= cl_image_path @project.photos.first.key, class:"img-fluid my-3"%>)"></div>
     <% end %>
