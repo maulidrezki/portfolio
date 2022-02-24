@@ -6,6 +6,7 @@
 
 <div class="containershow">
   <div class="container-projectshow">
+    <h5><%= @project.name%></h5>
     <p class="fs-6"><%=link_to @project.url, @project.url, :target => "_blank", class: "nav-url"%></p>
     <br>
     <p><%= @project.description%></p>
