@@ -11,6 +11,7 @@
     <br>
     <p><%= @project.description%></p>
     <br>
+    <p><%= @project.stacks%></p>
     <% if @project.photos.attached? %>
       <div class="card-category" style="background-image: url(<%= cl_image_path @project.photos.first.key, class:"img-fluid my-3"%>)"></div>
     <% end %>
